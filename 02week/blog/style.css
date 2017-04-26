@@ -1,0 +1,82 @@
+div h2 {
+  background-color: yellow !important;
+}
+
+:not(h2) {
+  background-color: grey;
+}
+
+#subtitle {
+  background-color: grey;
+}
+
+html {
+  background-color: lightgrey;
+  font-size: 12px; /* px means 'pixels': the base font size is now 12 pixels high  */
+  font-family: sans-serif;
+}
+body {
+  width: 560px;
+  margin: 10 auto;
+  background-color: white;
+  padding: 10px 10px 10px 10px;
+  border: 3px solid black;
+}
+h1 {
+  font-size: 60px;
+  text-align: center;
+  color: black;
+  width: 535px;
+  border: 3px solid green;
+  line-height: 1;
+  letter-spacing: 1px;
+  margin: 0;
+  padding: 10px 10px 10px 10px;
+  color: #00539F;
+  text-shadow: 3px 3px 1px black;
+}
+h2 {
+  font-size: 16px;
+  text-align: center;
+  color: green;
+  line-height: 1;
+  letter-spacing: 1px;
+}
+ul {
+  width: 535px;
+  height: 50px;
+  overflow: scroll;
+  margin: 10 auto;
+  padding: 10px 10px 10px 10px;
+}
+img {
+  float: right;
+}
+h2 {
+  clear: both;
+}
+
+.parent {
+  width: 95%;
+  margin: auto;
+  background-color: grey;
+  padding: 10px 10px 10px 10px;
+}
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+
+.parent div {
+  width: 20%;
+  height: 150px;
+  float: left;
+  padding: 10px 10px 10px 10px;
+  color: white;
+  overflow: scroll;
+}
