@@ -1,3 +1,11 @@
+html,body,div,span,object,iframe,h1,h2,p,blockquote {
+  border:0;
+  font:inherit;
+  font-size:100%;
+  margin:0;
+  padding:0;
+  vertical-align:baseline;
+}
 body,html,{
   height:100%;
   margin:0;
